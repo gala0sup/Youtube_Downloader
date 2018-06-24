@@ -16,7 +16,7 @@ def init():
     # type: () -> object
     print("Enter Video link :- ")
     link = raw_input()  # type: str
-    os.chdir('C:\\Users\\arun\\Downloads\\!SONGS')
+    os.chdir('C:\\Users\\\<username>\\Downloads\\!SONGS')
     print ("\nSong Will be downloded in "+os.getcwd())
     return link
 
